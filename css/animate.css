@@ -1,0 +1,240 @@
+/*动画样式*/
+html{
+    font-size: 62.5%;
+}
+/*头部样式*/
+.head-fadeOut{
+    opacity: 0;
+    -webkit-transform: translateY(-3rem);
+    -moz-transform: translateY(-3rem);
+    -ms-transform: translateY(-3rem);
+    -o-transform: translateY(-3rem);
+    transform: translateY(-3rem);
+}
+.head-fadeIn{
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0);
+}
+
+
+.abs-item-fadeOut{
+    opacity: 0;
+    -webkit-transform: translateY(-3rem);
+    -moz-transform: translateY(-3rem);
+    -ms-transform: translateY(-3rem);
+    -o-transform: translateY(-3rem);
+    transform: translateY(-3rem);
+}
+.abs-item-fadeIn{
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0);
+}
+
+/*video动画*/
+.index-logo-fadeOut{
+    opacity: 0;
+    -webkit-transform: translateY(-3rem);
+    -moz-transform: translateY(-3rem);
+    -ms-transform: translateY(-3rem);
+    -o-transform: translateY(-3rem);
+    transform: translateY(-3rem);
+}
+.index-logo-fadeIn{
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0);
+}
+.play-p-fadeOut{
+    opacity: 0;
+    -webkit-transform: translateY(-2rem);
+    -moz-transform: translateY(-2rem);
+    -ms-transform: translateY(-2rem);
+    -o-transform: translateY(-2rem);
+    transform: translateY(-2rem);
+}
+.play-p-fadeIn{
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0);
+}
+/*video动画设置*/
+@-webkit-keyframes playRotate{
+    0% {
+        opacity: 0;
+        -webkit-transform: rotateX(90deg);
+        -moz-transform: rotateX(90deg);
+        -ms-transform: rotateX(90deg);
+        -o-transform: rotateX(90deg);
+        transform: rotateX(90deg);}
+    40% {
+        -webkit-transform: rotateX(-10deg);
+        -moz-transform: rotateX(-10deg);
+        -ms-transform: rotateX(-10deg);
+        -o-transform: rotateX(-10deg);
+        transform: rotateX(-10deg);}
+    70% {
+        -webkit-transform: rotateX(10deg);
+        -moz-transform: rotateX(10deg);
+        -ms-transform: rotateX(10deg);
+        -o-transform: rotateX(10deg);
+        transform: rotateX(10deg);}
+    100% {
+        opacity: 1;
+        -webkit-transform: rotateX(0deg);
+        -moz-transform: rotateX(0deg);
+        -ms-transform: rotateX(0deg);
+        -o-transform: rotateX(0deg);
+        transform: rotateX(0deg);}
+}
+@keyframes playRotate {
+    0% {
+        opacity: 0;
+        -webkit-transform: rotateX(90deg);
+        -moz-transform: rotateX(90deg);
+        -ms-transform: rotateX(90deg);
+        -o-transform: rotateX(90deg);
+        transform: rotateX(90deg);}
+    40% {
+        -webkit-transform: rotateX(-10deg);
+        -moz-transform: rotateX(-10deg);
+        -ms-transform: rotateX(-10deg);
+        -o-transform: rotateX(-10deg);
+        transform: rotateX(-10deg);}
+    70% {
+        -webkit-transform: rotateX(10deg);
+        -moz-transform: rotateX(10deg);
+        -ms-transform: rotateX(10deg);
+        -o-transform: rotateX(10deg);
+        transform: rotateX(10deg);}
+    100% {
+        opacity: 1;
+        -webkit-transform: rotateX(0deg);
+        -moz-transform: rotateX(0deg);
+        -ms-transform: rotateX(0deg);
+        -o-transform: rotateX(0deg);
+        transform: rotateX(0deg);}
+}
+.play-icon-animation{
+    -webkit-animation: playRotate 3s linear ;
+    -o-animation: playRotate 3s linear ;
+    animation: playRotate 3s linear ;
+}
+
+
+/*index-test样式*/
+.test-head-fadeOut{
+    opacity: 0;
+    -webkit-transform: translateY(-3rem);
+    -moz-transform: translateY(-3rem);
+    -ms-transform: translateY(-3rem);
+    -o-transform: translateY(-3rem);
+    transform: translateY(-3rem);
+}
+.test-head-fadeIn {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0);
+}
+.task-item-fadeOut{
+    opacity: 0;
+    -webkit-transform: translateY(-3rem);
+    -moz-transform: translateY(-3rem);
+    -ms-transform: translateY(-3rem);
+    -o-transform: translateY(-3rem);
+    transform: translateY(-3rem);
+}
+.task-item-fadeIn{
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0);
+}
+
+/*index-show样式*/
+.blog-item-fadeOut{
+    opacity: 0;
+    -webkit-transform: translateY(-3rem);
+    -moz-transform: translateY(-3rem);
+    -ms-transform: translateY(-3rem);
+    -o-transform: translateY(-3rem);
+    transform: translateY(-3rem);
+}
+.blog-item-fadeIn{
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
